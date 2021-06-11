@@ -1,5 +1,25 @@
-# Common code I use
+This Repo has code snippets I frequently use. Not everything can be automated. Correction: Some things are wrong to automate, it creates more complexity overhead then it could possible ever ease.
 
-This Repo has code snippets I frequently use. Not everything can be automated. Correction: Some things are wrong to automate, it creates more complexity and overhead then it could possible ever ease. It would make sense to create a package to generate these snippets dynamically at some point. This for example would allow me to run `npx junaga init package.json` to scaffold a universal `package.json` without context switching.
+### `.gitignore`
 
-[Prettier Playground](https://prettier.io/playground/#N4Igxg9gdgLgprEAuEAdK70AIsGIsAqAljADZyZQAGNAVgM6WplwxYAeAvAOQAScpUhAA0WAO4QATqQAmAQm4BubDkhR6EcgDohAcwAU7AJTLqNJhigEAFkXpY7WeOxjoQwkBAAOMItHrIoACGkpIQYgAKIQgBKEEAbhBEMu4gAEaSQWAA1qwAyl5ZRFC6yDCSAK5wHnAAtmlwMjKNADJBJRVBunAAYlK1QTC+JcggQRUwEKnWMLWkAOq28PSFYHB5MSRE8SQAnqNg9AEexfRwkjARmboDyABmQaRnHgzsAEKZOflBtXAtxXB7o9niBXnlirpyABFCoQeBAp7VECFSRnSSjAaSbIycJQVJeSTFGDzZIwazIAAcAAYPASIGd5pkvKMCXA0fFAR4AI6w+BXbyxMb0AC0UDgjUaqUkcB5RGlVy6tyQD0RHjOtSICJB9Ah0N5gOVwKRMCCaRJMjJyAATB5ykEiKQIQBhCC1JUgKDQTkgCpnAim2IqkHxKoASSgzVgeTAhJ8AEEI3kYLtyFq4ABfdNAA)
+```ignore
+# Logged messages, from various tools
+*.log
+# The compiled distributable
+dist/
+
+# fucking macOS users
+.DS_Store
+```
+
+### `.prettierrc`
+
+Prettier settings I use **everywhere**, on clients, servers and dev env. [Here](https://invita.link/prettier-playground) is the Prettier Playground with these settings.
+
+```json
+{
+  "semi": false,
+  "trailingComma": "none",
+  "arrowParens": "avoid"
+}
+```
