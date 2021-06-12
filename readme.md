@@ -1,4 +1,4 @@
-This Repo has code snippets I frequently use. Not everything can be automated. Correction: Some things are wrong to automate, it creates more complexity overhead then it could possible ever ease.
+This Repo has code snippets I frequently use. Not everything can be automated. Correction: Some things are wrong to automate, it creates more complexity overhead, then it could possible ever ease.
 
 ### `.gitignore`
 
@@ -22,4 +22,18 @@ Prettier settings I use **everywhere**, on clients, servers and dev env. [Here](
   "trailingComma": "none",
   "arrowParens": "avoid"
 }
+```
+
+### HTML `<head>`
+
+From [MDN docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head):
+
+> The `<head>` HTML element contains **machine-readable** information (metadata) about the document.
+
+```html
+<head>
+  <title>Webpage<title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
 ```
