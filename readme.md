@@ -19,8 +19,7 @@ Prettier settings I use **everywhere**, on clients, servers and dev env. [Here](
 ```json
 {
   "semi": false,
-  "trailingComma": "none",
-  "arrowParens": "avoid"
+  "trailingComma": "none"
 }
 ```
 
