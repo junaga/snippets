@@ -12,7 +12,7 @@ dist/
 .DS_Store
 ```
 
-### `.prettierrc`
+### `.prettierrc.json`
 
 Prettier settings I use **everywhere**, on clients, servers and the dev env. [Here](https://invita.link/prettier-playground) is the Prettier Playground with these settings.
 
