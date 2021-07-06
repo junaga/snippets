@@ -31,9 +31,9 @@ From [MDN docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head):
 
 ```html
 <head>
-  <title>Webpage Title<title>
+  <title>Webpage Title</title>
   <meta name="description" content="Webpage Description">
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 ```
