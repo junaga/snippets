@@ -25,15 +25,14 @@ Prettier settings I use **everywhere**, on clients, servers and the dev env. [He
 
 ### HTML `<head>`
 
-From [MDN docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head):
-
-> The `<head>` HTML element contains **machine-readable** information (metadata) about the document.
+What a HTML `<head>` might look like. Don't forget the `<!DOCTYPE html>`, at the very top of the document, to force HTML5.
 
 ```html
 <head>
-  <title>Webpage Title</title>
-  <meta name="description" content="Webpage Description">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DOCUMENT TITLE</title>
+  <meta name="description" content="DOCUMENT DESCRIPTION" />
+  <link rel="icon" href="/favicon.ico" />
 </head>
 ```
