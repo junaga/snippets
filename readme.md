@@ -23,6 +23,21 @@ Prettier [settings](https://invita.link/prettier-playground) I use everywhere.
 }
 ```
 
+### published `package.json`
+
+If nowhere published, I only set `"private": true`.
+
+```json
+{
+  "name": "PACKAGE NAME",
+  "version": "0.0.0",
+  "description": "PACKAGE DESCRIPTION",
+  "license": "MIT",
+  "author": "hermann-stanew@invita.gmbh",
+  "main": "index.js"
+}
+```
+
 ### production grade `.html` `<head>`
 
 Always including the initial `<!DOCTYPE html>` to **force** HTML5.
