@@ -1,4 +1,4 @@
-This repo has code snippets I frequently use. Not everything can be automated. Correction: Some things **should not** be automated. It creates more complexity overhead, then it could possible ever ease.
+Not everything can be automated. Correction: Some things **should not** be automated. It creates more complexity overhead, then it could possible ever reduce.
 
 ### `.gitignore`
 
@@ -12,9 +12,9 @@ dist/
 .DS_Store
 ```
 
-### `.prettierrc.json`
+### `.prettierrc`
 
-Prettier settings I use **everywhere**, on clients, servers and the dev env. [Here](https://invita.link/prettier-playground) is the Prettier Playground with these settings.
+Prettier [settings](https://invita.link/prettier-playground) I use everywhere.
 
 ```json
 {
@@ -23,9 +23,9 @@ Prettier settings I use **everywhere**, on clients, servers and the dev env. [He
 }
 ```
 
-### HTML `<head>`
+### production grade `.html` `<head>`
 
-What a HTML `<head>` might look like. Don't forget the `<!DOCTYPE html>`, at the very top of the document, to force HTML5.
+Always including the initial `<!DOCTYPE html>` to **force** HTML5.
 
 ```html
 <head>
