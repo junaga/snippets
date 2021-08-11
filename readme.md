@@ -30,7 +30,7 @@ If nowhere published, I only set `"private": true`.
   "version": "0.0.0",
   "description": "PACKAGE DESCRIPTION",
   "license": "MIT",
-  "author": "hermann-stanew@invita.gmbh",
+  "author": "hermann-stanew@invita.gmbh"
 }
 ```
 
@@ -40,6 +40,7 @@ If nowhere published, I only set `"private": true`.
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>DOCUMENT TITLE</title>
   <meta name="description" content="DOCUMENT DESCRIPTION" />
   <link rel="icon" href="/favicon.ico" />
