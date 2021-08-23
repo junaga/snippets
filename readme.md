@@ -5,7 +5,6 @@ Not everything can be automated. Correction: Some things **should not** be autom
 ```ignore
 *.log
 dist/
-
 .DS_Store
 ```
 
@@ -38,11 +37,11 @@ If nowhere published, I only set `"private": true`.
 
 ```html
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <title>DOCUMENT TITLE</title>
-  <meta name="description" content="DOCUMENT DESCRIPTION" />
   <link rel="icon" href="/favicon.ico" />
+  <meta name="description" content="DOCUMENT DESCRIPTION" />
 </head>
 ```
