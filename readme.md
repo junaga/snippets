@@ -1,4 +1,4 @@
-Not everything can be automated. Correction: Some things **should not** be automated. It creates more complexity overhead, then it could possible ever reduce.
+Not everything can be automated. Correction: Some things **should not** be automated. It creates more complexity overhead, then it could possibly ever reduce.
 
 ### `.gitignore`
 
@@ -21,7 +21,7 @@ Prettier [settings](https://invita.link/prettier-playground) I use everywhere.
 
 ### published `package.json`
 
-If nowhere published, I only set `"private": true`.
+If nowhere published I only set `"private": true`.
 
 ```json
 {
