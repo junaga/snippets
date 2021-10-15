@@ -35,6 +35,8 @@ If nowhere published I only set `"private": true`.
 
 ### production grade `.html` `<head>`
 
+Remember to include `<!DOCTYPE html>` on the first line.
+
 ```html
 <head>
   <meta charset="UTF-8" />
