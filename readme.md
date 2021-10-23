@@ -6,6 +6,10 @@ Not everything can be automated. Correction: Some things **should not** be autom
 *.log
 dist/
 .DS_Store
+
+# javascript dependencies
+/node_modules/
+/package-lock.json
 ```
 
 ### `.prettierrc`
