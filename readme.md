@@ -29,7 +29,10 @@ If nowhere published I only set `"private": true`.
   "version": "0.0.0",
   "description": "PACKAGE DESCRIPTION",
   "license": "MIT",
-  "author": "hermann-stanew@invita.gmbh"
+  "author": "junaga <hermann-stanew@invita.gmbh>"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/junaga/REPO-NAME.git"
 }
 ```
 
