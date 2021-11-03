@@ -32,5 +32,6 @@ General, always-on, settings, for my IDE of choice.
 ```ignore
 *.log
 dist/
+desktop.ini
 .DS_Store
 ```

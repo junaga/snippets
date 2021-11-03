@@ -3,6 +3,7 @@
 ```ignore
 *.log
 dist/
+desktop.ini
 .DS_Store
 
 # javascript dependencies
