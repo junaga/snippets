@@ -1,4 +1,31 @@
-Not everything can be automated. Correction: Some things **should not** be automated. It creates more complexity overhead, then it could possibly ever reduce.
+Not everything can be automated. Correction: Some things _should not_ be automated. It creates more complexity overhead, then it could possibly ever reduce. So I maintain a couple **code snippets**, to solve these kinds of problems, the ol' reliable `CTRL+V`(on the Web) or `SHIFT+INSERT`(on the system) way.
+
+- [`./javascript.md`](./javascript.md)
+  - HTML
+  - CSS
+
+## General
+
+### VS Code `settings.json`
+
+General, always-on, settings, for my IDE of choice.
+
+```jsonc
+{
+  "git.autofetch": true,
+
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "files.insertFinalNewline": true,
+
+  // Confirmed prompts/popups
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "explorer.confirmDragAndDrop": false,
+  "liveshare.anonymousGuestApproval": "accept"
+}
+```
 
 ### `.gitignore`
 
@@ -6,51 +33,4 @@ Not everything can be automated. Correction: Some things **should not** be autom
 *.log
 dist/
 .DS_Store
-
-# javascript dependencies
-/node_modules/
-/package-lock.json
-```
-
-### `.prettierrc`
-
-Prettier [settings](https://invita.link/prettier-playground) I use everywhere.
-
-```json
-{
-  "semi": false,
-  "trailingComma": "none"
-}
-```
-
-### published `package.json`
-
-If nowhere published I only set `"private": true`.
-
-```json
-{
-  "name": "PACKAGE NAME",
-  "version": "0.0.0",
-  "description": "PACKAGE DESCRIPTION",
-  "license": "MIT",
-  "author": "junaga <hermann-stanew@invita.gmbh>"
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/junaga/REPO-NAME.git"
-}
-```
-
-### production grade `.html` `<head>`
-
-Remember to include `<!DOCTYPE html>` on the first line.
-
-```html
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <title>DOCUMENT TITLE</title>
-  <link rel="icon" href="/favicon.ico" />
-  <meta name="description" content="DOCUMENT DESCRIPTION" />
-</head>
 ```
