@@ -22,9 +22,16 @@ Prettier [settings](https://invita.link/prettier-playground) I use everywhere.
 }
 ```
 
-### published `package.json`
+### Private `package.json`
 
-If nowhere published I only set `"private": true`.
+```json
+{
+  "private": true,
+  "type": "module"
+}
+```
+
+### Published `package.json`
 
 ```json
 {
@@ -39,9 +46,9 @@ If nowhere published I only set `"private": true`.
 }
 ```
 
-### production grade `.html` `<head>`
+### Production grade `.html` `<head>`
 
-Remember to include `<!DOCTYPE html>` on the first line.
+Always include `<!DOCTYPE html>` on the first line.
 
 ```html
 <head>
