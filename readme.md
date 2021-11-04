@@ -13,6 +13,7 @@ General, always-on, settings, for my IDE of choice.
 ```jsonc
 {
   "git.autofetch": true,
+  "workbench.startupEditor": "readme",
 
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
