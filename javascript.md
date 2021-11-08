@@ -56,7 +56,7 @@ Always include `<!DOCTYPE html>` on the first line.
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <title>DOCUMENT TITLE</title>
-  <link rel="icon" href="/favicon.ico" />
+  <link rel="icon" href="/favicon.png" />
   <meta name="description" content="DOCUMENT DESCRIPTION" />
 </head>
 ```
