@@ -13,18 +13,24 @@ General, always-on, settings, for my IDE of choice.
 ```jsonc
 {
   "git.autofetch": true,
-  "workbench.startupEditor": "readme",
-
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
-  "editor.wordWrap": "on",
   "files.insertFinalNewline": true,
+  
+  // Look and feel
+  "editor.wordWrap": "on",
+  "workbench.startupEditor": "readme",
+  "window.menuBarVisibility": "hidden",
 
   // Confirmed prompts/popups
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "explorer.confirmDragAndDrop": false,
-  "liveshare.anonymousGuestApproval": "accept"
+  "security.workspace.trust.untrustedFiles": "open",
+
+  // Extension settings
+  "liveshare.anonymousGuestApproval": "accept",
+  "workbench.iconTheme": "material-icon-theme"
 }
 ```
 
