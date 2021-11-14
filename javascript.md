@@ -6,9 +6,10 @@ dist/
 desktop.ini
 .DS_Store
 
-# javascript dependencies
-/node_modules/
-/package-lock.json
+# dotenv files
+.env
+# dependencies
+node_modules/
 ```
 
 ### `.prettierrc`
