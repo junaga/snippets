@@ -12,7 +12,7 @@ General, always-on, settings, for my IDE of choice.
 
 ```jsonc
 {
-  "git.autofetch": true,
+  "git.autofetch": true, // fetch != pull
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
   "files.insertFinalNewline": true,
@@ -30,6 +30,8 @@ General, always-on, settings, for my IDE of choice.
 
   // Extension settings
   "liveshare.anonymousGuestApproval": "accept",
+  "volar.codeLens.references": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "workbench.iconTheme": "material-icon-theme"
 }
 ```
