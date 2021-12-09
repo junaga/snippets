@@ -31,6 +31,7 @@ General, always-on, settings, for my IDE of choice.
   // Extension settings
   "liveshare.anonymousGuestApproval": "accept",
   "volar.codeLens.references": false,
+  "volar.icon.splitEditors": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "workbench.iconTheme": "material-icon-theme"
 }
