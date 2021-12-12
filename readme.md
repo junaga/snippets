@@ -18,6 +18,7 @@ General, always-on, settings, for my IDE of choice.
   "files.insertFinalNewline": true,
   
   // Look and feel
+  "editor.unicodeHighlight.invisibleCharacters": true,
   "editor.wordWrap": "on",
   "workbench.startupEditor": "readme",
   "window.menuBarVisibility": "hidden",
