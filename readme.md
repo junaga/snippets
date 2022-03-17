@@ -16,7 +16,7 @@ General, always-on, settings, for my IDE of choice.
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
   "files.insertFinalNewline": true,
-  
+
   // Look and feel
   "editor.unicodeHighlight.invisibleCharacters": true,
   "editor.wordWrap": "on",
@@ -31,10 +31,9 @@ General, always-on, settings, for my IDE of choice.
 
   // Extension settings
   "liveshare.anonymousGuestApproval": "accept",
-  "volar.codeLens.references": false,
-  "volar.icon.splitEditors": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "workbench.iconTheme": "material-icon-theme"
+  "workbench.iconTheme": "material-icon-theme",
+  "github.copilot.enable": { "*": true }
 }
 ```
 
