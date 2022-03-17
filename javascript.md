@@ -6,10 +6,10 @@ dist/
 desktop.ini
 .DS_Store
 
-# dotenv files
-.env
 # dependencies
 node_modules/
+# dotenv config files
+.env
 ```
 
 ### `.prettierrc`
@@ -19,7 +19,9 @@ Prettier [settings](https://invita.link/prettier-playground) I use everywhere.
 ```json
 {
   "semi": false,
-  "trailingComma": "none"
+  "trailingComma": "none",
+  "arrowParens": "avoid",
+  "quoteProps": "consistent"
 }
 ```
 
