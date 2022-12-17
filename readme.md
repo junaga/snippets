@@ -12,16 +12,10 @@ General, always-on, settings, for my IDE of choice.
 
 ```jsonc
 {
+  "terminal.integrated.shellIntegration.enabled": false, // bad bad bad
   "git.autofetch": true, // fetch != pull
   "editor.formatOnSave": true,
-  "editor.tabSize": 2,
   "files.insertFinalNewline": true,
-
-  // Look and feel
-  "editor.unicodeHighlight.invisibleCharacters": true,
-  "editor.wordWrap": "on",
-  "workbench.startupEditor": "readme",
-  "window.menuBarVisibility": "hidden",
 
   // Confirmed prompts/popups
   "git.confirmSync": false,
@@ -29,11 +23,34 @@ General, always-on, settings, for my IDE of choice.
   "explorer.confirmDragAndDrop": false,
   "security.workspace.trust.untrustedFiles": "open",
 
+  // Look and feel
+  "editor.wordWrap": "on",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.integrated.defaultLocation": "editor",
+  "terminal.integrated.rightClickBehavior": "default",
+  "terminal.integrated.scrollback": 1000000,
+  "terminal.integrated.fontFamily": "Cascadia Mono",
+  "workbench.startupEditor": "readme",
+  "window.menuBarVisibility": "compact",
+
   // Extension settings
+  "github.copilot.enable": { "*": true },
   "liveshare.anonymousGuestApproval": "accept",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "workbench.iconTheme": "material-icon-theme",
-  "github.copilot.enable": { "*": true }
+  "errorLens.onSave": true,
+  "vscodeGoogleTranslate.preferredLanguage": "English",
+  // Prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.semi": false,
+  "prettier.trailingComma": "none",
+  // python
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "python.formatting.provider": "black",
+  "python.analysis.typeCheckingMode": "strict",
+  // svelte
+  "svelte.ask-to-enable-ts-plugin": false
 }
 ```
 
