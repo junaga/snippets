@@ -1,33 +1,30 @@
 {
-	"git.autofetch": "all", // fetch != pull
-	"security.workspace.trust.enabled": false,
 	"editor.formatOnSave": true,
+	"security.workspace.trust.enabled": false,
+	"git.autofetch": "all", // fetch != pull
+	"terminal.integrated.rightClickBehavior": "default",
 
 	// Code Formatting
+	"[python]": { "editor.defaultFormatter": "ms-python.black-formatter" }, // Extension
 	"editor.defaultFormatter": "esbenp.prettier-vscode", // Extension
-	// A local prettier config overwrites these settings
-	// see: https://prettier.io/docs/en/configuration.html
+	// A local config overwrites these settings
+	// https://prettier.io/docs/en/configuration.html
 	"prettier.useTabs": true,
 	"prettier.semi": false,
 	"prettier.trailingComma": "none",
-	"[python]": {
-		"editor.defaultFormatter": "ms-python.black-formatter" // Extension
-	},
 
 	// Look and feel
 	"editor.wordWrap": "on",
-	"editor.tabSize": 2, // But I do use tabs
+	"editor.tabSize": 2,
 	"editor.fontFamily": "Cascadia Code", // A ligatures font from Microsoft
 	"editor.fontLigatures": true,
-	"editor.fontSize": 13,
 	"workbench.iconTheme": "material-icon-theme", // Extension
 	"diffEditor.ignoreTrimWhitespace": false,
+	"terminal.integrated.defaultLocation": "editor",
+	"terminal.integrated.scrollback": 1000000,
 	"window.menuBarVisibility": "hidden",
 	"workbench.editor.tabCloseButton": "off",
 	"workbench.startupEditor": "readme",
-	"terminal.integrated.defaultLocation": "editor",
-	"terminal.integrated.scrollback": 1000000,
-	"terminal.integrated.rightClickBehavior": "default",
 
 	// Confirmed UI popups
 	"explorer.confirmDragAndDrop": false,
