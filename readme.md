@@ -9,7 +9,7 @@ desktop.ini
 .DS_Store
 ```
 
-### JavaScript `.gitignore`
+### JavaScript
 
 ```
 # dependencies
@@ -36,15 +36,17 @@ node_modules/
 
 ```html
 <!DOCTYPE html>
-<html>
+<html dir="ltr" lang="$LANG">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<title>DOCUMENT TITLE</title>
-		<link rel="icon" href="/favicon.png" />
-		<meta name="description" content="DOCUMENT DESCRIPTION" />
+		<title>$TITLE</title>
+		<meta name="description" content="$DESCRIPTION" />
+		<link rel="icon" type="image/png" sizes="48x48" href="/favicon.png" />
 	</head>
-	<body />
+	<body>
+		<main />
+	</body>
 </html>
 ```
