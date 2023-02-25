@@ -24,6 +24,10 @@ node_modules/
 {
 	"private": true,
 	"type": "module",
+	"browserslist": [
+		"defaults and supports es6-module",
+		"maintained node versions"
+	],
 	"prettier": {
 		"useTabs": true,
 		"semi": false,
