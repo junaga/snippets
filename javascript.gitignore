@@ -1,0 +1,9 @@
+*.log
+dist/
+desktop.ini
+.DS_Store
+
+# dependencies
+node_modules/
+# dotenv config files
+.env
