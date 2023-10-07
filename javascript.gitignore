@@ -1,9 +1,12 @@
 *.log
 dist/
+
+# windows, macos
 desktop.ini
+*Zone.Identifier
 .DS_Store
 
-# dependencies
+# nodejs
 node_modules/
-# dotenv config files
+package-lock.json
 .env
