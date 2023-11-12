@@ -1,5 +1,6 @@
 *.log
 dist/
+.env
 
 # windows, macos
 desktop.ini
@@ -8,5 +9,3 @@ desktop.ini
 
 # nodejs
 node_modules/
-package-lock.json
-.env
