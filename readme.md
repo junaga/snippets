@@ -1,5 +1,8 @@
-Some things _should not_ be automated. It creates more complexity, than it could possibly ever reduce. So I maintain a couple **code snippets**, to solve these problems the ol' reliable copy & paste way.
+| System                                 | **Copy**       | **Paste**      |
+| -------------------------------------- | -------------- | -------------- |
+| **macOS**                              | `CMD+C`        | `CMD+V`        |
+| **Windows & Linux**                    | `CTRL+INSERT`  | `SHIFT+INSERT` |
+| **Windows & Linux**                    | `CTRL+C`       | `CTRL+V`       |
+| **Windows & Linux Terminal Emulators** | `CTRL+SHIFT+C` | `CTRL+SHIFT+V` |
 
-1. `$ curl -LO https://github.com/junaga/snippets/raw/main/$FILE`
-2. `CTRL+V` - Web & Desktop
-3. `SHIFT+INSERT` - IBM
+_`C` for Copy, `V` for Paste, `X` for Cut, and `Z` for Undo was invented by Apple in 1983._
